@@ -15,7 +15,8 @@ These are the tools that must be installed before running this pipeline:
   - These reads include the first 100000 reads of each read
 
 # Command to run:
-- after you download the truncated dataset, you can now run the pipeline:
+**git clone insert link here**
+- after you download the truncated dataset and did git clone, you can now run the pipeline:
             **python3 pipeline_project.py**
   
 # The files in the produced file include:
