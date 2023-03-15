@@ -12,7 +12,7 @@ These are the tools that must be installed before running this pipeline:
 # Before you run:
   - Included in this repo are the 8 truncated fastq files
   - You must download these files to run the test data
-  - These reads include the first 100000 reads of each read
+  - These reads include the first 75,000 reads of each fastq file
 
 # Command to run:
 **git clone insert link here**
@@ -21,11 +21,11 @@ These are the tools that must be installed before running this pipeline:
   
 # The files in the produced file include:
   - Trimmed_fastq_files: These are the truncated fastq files so that the pipeline runs under 2 minutes
-  - spades_raw_assembly: This is the 
-  - mapped_strains:
-  - bowtie_indexes:
-  - blast: Includes the database of the Betaherpesvirinae family, and the
-  - aligned_reads:
-  - aligned_reads_unzipped:
-  - PipelineProject.log:
-  - bowtie_fasta:
+  - spades_raw_assembly: This is the assembly produced by spades using the fastq files
+  - mapped_strains: These are the .sam files
+  - bowtie_indexes: These files are the bowtie index
+  - blast: This includes the data needed to blast the longest contig in the assembly against the Betaherpesvirinae family
+  - aligned_reads: These are the filttered fastq files with reads that map to the bowtie index
+  - aligned_reads_unzipped:These are the aligned reads unzipped
+  - PipelineProject.log: This includes the output asked for in the project description
+  - bowtie_fasta: This is the fasta file used for the Bowtie index
