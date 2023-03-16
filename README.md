@@ -16,7 +16,7 @@ These are the tools that must be installed before running this pipeline:
 
 # Command to run:
 
-- BEFORE RUNNING, you must be in the location where the trimmed_fastq file is. 
+- BEFORE RUNNING, you must be in the location where the trimmed_fastq file folder is. 
 - **git clone https://github.com/nstegman1/PipelineProject_Natalie_Stegman.git**
 - **python3 pipeline_project.py**
             
