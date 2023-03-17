@@ -8,8 +8,9 @@ These are the tools that must be installed before running this pipeline:
   - Spades
   - Linux/Unix
   - Python3
+
 These are the Python modules needed:
-  - import os
+  -  import os
   -  from Bio import Entre
   -  from Bio import SeqI
   -  import glob
